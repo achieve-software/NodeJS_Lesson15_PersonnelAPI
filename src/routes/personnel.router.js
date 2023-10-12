@@ -19,7 +19,7 @@ router.route('/:id')
     .patch(personnel.update)
     .delete(personnel.delete)
 
-router.get('/:id/personnels', personnel.personnels)
+
 
 /* ------------------------------------------------------- */
 module.exports = router
