@@ -48,6 +48,9 @@ app.all("/", (req, res) => {
     isLogin: req.isLogin,
   });
 });
+//departments
+app.use("departments", require("./src/routes/department.router"))
+
 
 // errorHandler:
 app.use(require("./src/middlewares/errorHandler"));
