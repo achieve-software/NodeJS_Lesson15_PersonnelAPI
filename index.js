@@ -53,7 +53,7 @@ app.use(async (req, res, next) => {
       // }
       req.isLogin = user && user.password == req.session.password
   }
-  console.log('isLogin: ', req.isLogin)
+  // console.log('isLogin: ', req.isLogin)
 
   next()
 })
