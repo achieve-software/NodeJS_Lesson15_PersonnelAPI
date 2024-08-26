@@ -56,7 +56,7 @@ const PersonnelSchema = new mongoose.Schema({
 
     title: {
         type: String,
-        trim: false,
+        trim: true,
         required: true,
     },
 
