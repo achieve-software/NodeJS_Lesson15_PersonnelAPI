@@ -47,7 +47,7 @@ const PersonnelSchema = new mongoose.Schema({
     },
 
     email: {
-        type: Number,
+        type: String,
         trim: true,
         required: true,
         unique: true,
