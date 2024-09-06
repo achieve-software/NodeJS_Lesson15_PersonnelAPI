@@ -61,7 +61,7 @@ const PersonnelSchema = new mongoose.Schema({
     },
 
     salary: {
-        type: String,
+        type: Number,
         default: 0
     },
 
