@@ -63,7 +63,7 @@ app.use(async (req, res, next) => {
 // HomePath:
 app.all("/", (req, res) => {
   res.send({
-    error: true,
+    error: false,
     message: "Welcome to PERSONNEL API",
     session: req.session,
     isLogin: req.isLogin,
